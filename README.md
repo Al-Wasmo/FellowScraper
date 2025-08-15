@@ -3,7 +3,7 @@ FellowScraper is a **beginner-friendly** automation scraping tool that uses **gr
 Instead of writing complex code or scripts, you can visually build scraping workflows like connecting puzzle pieces and FellowScraper will handle the rest.
 
 website: https://fellow-scraper.vercel.app/
-
+youtube explaining the tool: https://www.youtube.com/watch?v=vBhiXmkCTxc
 
 
 ## Quick Start
@@ -21,16 +21,6 @@ website: https://fellow-scraper.vercel.app/
    ```
 
 
-## Introduction
-
-Traditional web scraping requires writing code, understanding HTML parsing, and handling complex logic. FellowScraper changes this by providing a visual interface where you can:
-
-- **Drag and drop** nodes to build scraping workflows
-- **Connect nodes** to create data pipelines
-- **Preview results** in real-time
-- **Save and reuse** scraping flows
-
-
 ## Current Features
 
 ### Node Types
@@ -39,6 +29,8 @@ Traditional web scraping requires writing code, understanding HTML parsing, and 
 - **Request Node** - Sends HTTP requests to URLs with caching support
 - **Find Element Node** - Searches HTML for elements by ID, class, attributes, or name
 - **Extract Attribute Node** - Extracts text content or specific attributes from elements
+- and more coming :)
+
 
 ### Interface Features
 - **Visual Flow Builder** - Drag, drop, and connect nodes using React Flow
@@ -48,12 +40,14 @@ Traditional web scraping requires writing code, understanding HTML parsing, and 
 - **Keyboard Shortcuts** - Quick actions for power users
 - **Documentation** - Built-in help system
 
+
 ### Technical Capabilities
 - **WebSocket Communication** - Real-time data streaming between frontend and backend
 - **Response Caching** - Faster testing with cached HTTP responses
 - **Content Type Detection** - Automatic JSON and HTML prettification
 - **Element Preview** - Visual preview of matched HTML elements
 - **Error Handling** - Clear feedback when things go wrong
+
 
 ## How to Run
 
@@ -84,23 +78,10 @@ Traditional web scraping requires writing code, understanding HTML parsing, and 
 
 after this, you can run flows from the frontend
 
-## How to Use
-
-### Basic Workflow
-1. **Start with a Start Node** - Every flow begins here
-2. **Add a Request Node** - Enter a URL to scrape
-3. **Add Find Element Nodes** - Search for specific HTML elements
-4. **Add Extract Nodes** - Pull out the data you need
-5. **End with an End Node** - Mark the completion of your flow
-6. **Connect the nodes** - Create data flow by linking outputs to inputs
-7. **Run the flow** - Press Ctrl+D or use the run button
-
-
 ### Node Configuration
 - **Request Node**: Enter URL, toggle response caching
 - **Find Element**: Choose filter type (ID, Class, Attribute, Name) and enter values
 - **Extract Attribute**: Select what to extract (text content or specific attributes)
-
 
 ### Planned Features
 - [ ] Add more nodes
@@ -111,6 +92,13 @@ after this, you can run flows from the frontend
 - [ ] Loop and conditional nodes
 - [ ] Data export (CSV, JSON)
 - [ ] Flow templates and examples
+
+
+### Current Limitations
+- uses local storage so its limited to 5mb 
+- bad error handling in the backend
+- lacks automation, so add more noes
+- ... and alot more
 
 
 ## Contributing
