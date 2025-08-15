@@ -1,0 +1,19 @@
+*:has(> [aria-label="React Flow attribution"]) {
+  display: none !important;
+}
+
+.mosaic-tile {
+  background-color: #181818 !important;
+  border-radius: 2px !important;
+  padding: 4px !important;
+  margin: 1px !important; 
+}
+
+.mosaic-split.-row {
+  width: 2px !important;
+  background-color: #505050;
+}
+.mosaic-split.-column {
+  height: 2px !important;
+  background-color: #505050;
+}
