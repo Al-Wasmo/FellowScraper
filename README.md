@@ -2,7 +2,7 @@
 FellowScraper is a **beginner-friendly** automation scraping tool that uses **graph-based** flows to simplify the web scraping process.      
 Instead of writing complex code or scripts, you can visually build scraping workflows like connecting puzzle pieces and FellowScraper will handle the rest.
 
-website: https://fellow-scraper.vercel.app/
+website: https://fellow-scraper.vercel.app/      
 youtube explaining the tool: https://www.youtube.com/watch?v=vBhiXmkCTxc
 
 
